@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 50px;
+	padding: 20px;
+}
+.rasm {
+	border-radius: 20px;
+	transition: all 0.3s linear;
+	&:hover {
+		transform: scale(1.07);
+	}
+}
+.li {
+	transition: all 0.5s linear;
+}
+.li:hover {
+	background: #a7ff6855;
+}
